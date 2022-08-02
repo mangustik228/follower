@@ -1,0 +1,11 @@
+﻿dot.env
+test.ipynb
+example.xlsx
+pars.xlsx
+pars.csv
+parsers/mangust228.session
+.vscode
+data.csv
+data.xlsx
+*__pycache__
+mangust228.session
