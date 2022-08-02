@@ -10,7 +10,6 @@ def prepare_date():
     filename = askopenfilename()
     with open(filename, 'r') as file:
         urls = file.read().split('\n')
-    urls = list(filter(lambda row: row != '0' and row != '', urls))
     return urls
     
 
